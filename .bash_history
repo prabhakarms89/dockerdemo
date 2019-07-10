@@ -84,3 +84,69 @@ yum install git
 sudo yum install git
 sudo su -
 sudo su -
+sudo service docker start
+ls -a
+touch Dockerfile
+vi Dockerfile
+touch index.php
+vi index.php
+ls -a
+mkdir src
+mv index.php src
+cd src
+ls
+cd
+ls 
+vi Dockerfile
+sudo service jenkisn start
+sudo service jenkins start
+vi Dockerfile
+ls
+docker build -it Dockerfile
+docker build -t Dockerfile
+cd /usr
+ls
+cd
+ls
+cd Dockerfile
+docker build -t dockerdemo1:1.0
+docker build .
+sudo docker build .
+docker images
+sudo docker images
+docker rmi  18074739492f 
+sudo -t
+sudo -
+sudo -i
+ls
+sudo docker build -t dockerdemo:1.0 .
+echo "# dockerdemo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/prabhakarms89/dockerdemo.git
+git push -u origin master
+ls -a
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/prabhakarms89/dockerdemo.git
+git push origin master
+sudo -i
+sudo usermod -a -G docker $USER
+docker login
+sudo docker login
+docker ps 
+sudo docker ps 
+ps aux | grep dockerd
+stat /var/run/docker.sock
+docker info
+ls -ll
+sudo usermod -a -G docker $USER
+ls -ll
+sudo su -
+ls
+ls -ll
+sudo -i
+vi Dockerfile
+sudo -i
